@@ -29,14 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:benchbudee-block-cache
+LIBS:benchbudee-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title ""
-Date "1 feb 2014"
+Date "2 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,4 +48,12 @@ Text HLabel 9650 2800 2    60   Input ~ 0
 tc in +
 Text HLabel 9650 3100 2    60   Input ~ 0
 tc in -
+Text HLabel 2700 2400 0    60   Input ~ 0
+MOSI
+Text HLabel 2700 2600 0    60   Output ~ 0
+MISO
+Text HLabel 2700 2800 0    60   Input ~ 0
+SCLK
+Text HLabel 2700 3000 0    60   Input ~ 0
+CS_N
 $EndSCHEMATC
