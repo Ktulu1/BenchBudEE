@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "8 feb 2014"
+Date "10 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -105,9 +105,14 @@ F0 "fan controller" 50
 F1 "fan controller.sch" 50
 F2 "Power+" O R 8250 900 60 
 F3 "Power-" I R 8250 1100 60 
-F4 "Tach_out" O L 5550 1100 60 
+F4 "Tach_out" O L 5550 1900 60 
 F5 "Tach" I R 8250 1300 60 
-F6 "Fan_in" I L 5550 900 60 
+F6 "Fan_in" I L 5550 1600 60 
+F7 "Current Measure" O L 5550 1800 60 
+F8 "MOSI" I L 5550 900 60 
+F9 "MISO" O L 5550 1200 60 
+F10 "CS_N" I L 5550 1100 60 
+F11 "SCLK" I L 5550 1000 60 
 $EndSheet
 $Sheet
 S 9500 750  1000 6200
