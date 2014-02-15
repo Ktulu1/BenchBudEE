@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "10 feb 2014"
+Date "15 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,27 +62,27 @@ F10 "FAN_EN" O R 4050 4300 60
 F11 "TACH_MEAS" I R 4050 4500 60 
 $EndSheet
 $Sheet
-S 6600 4100 2700 1250
+S 6600 4450 2650 900 
 U 52ED2725
 F0 "thermocouple" 50
 F1 "thermocouple.sch" 50
-F2 "tc in +" I R 9300 4250 60 
-F3 "tc in -" I R 9300 4450 60 
-F4 "MOSI" I L 6600 4250 60 
-F5 "MISO" O L 6600 4450 60 
-F6 "SCLK" I L 6600 4650 60 
-F7 "CS_N" I L 6600 4850 60 
+F2 "tc in +" I R 9250 4600 60 
+F3 "tc in -" I R 9250 4800 60 
+F4 "MOSI" I L 6600 4600 60 
+F5 "MISO" O L 6600 4800 60 
+F6 "SCLK" I L 6600 5000 60 
+F7 "CS_N" I L 6600 5200 60 
 $EndSheet
 $Sheet
-S 6600 5750 2700 1250
+S 6600 6050 2700 750 
 U 52ED273F
 F0 "relay" 50
 F1 "relay.sch" 50
-F2 "DIN+" I L 6600 5950 60 
-F3 "DIN-" O L 6600 6150 60 
-F4 "NC" B R 9300 6350 60 
-F5 "NO" B R 9300 6550 60 
-F6 "COM" B R 9300 6750 60 
+F2 "DIN+" I L 6600 6250 60 
+F3 "DIN-" O L 6600 6450 60 
+F4 "NC" B R 9300 6200 60 
+F5 "NO" B R 9300 6400 60 
+F6 "COM" B R 9300 6600 60 
 $EndSheet
 $Sheet
 S 700  700  3350 1900
@@ -91,14 +91,14 @@ F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 6600 2450 2700 1250
+S 6600 3050 2700 650 
 U 52ED27AA
 F0 "led driver" 50
 F1 "led driver.sch" 50
-F2 "EN" I L 6600 2650 60 
-F3 "FREQ" I L 6600 2850 60 
-F4 "String+" O R 9300 2650 60 
-F5 "String-" I R 9300 2850 60 
+F2 "EN" I L 6600 3250 60 
+F3 "FREQ" I L 6600 3450 60 
+F4 "String+" O R 9300 3250 60 
+F5 "String-" I R 9300 3450 60 
 $EndSheet
 $Sheet
 S 6600 800  2700 1250
@@ -123,9 +123,17 @@ F0 "terminal block" 50
 F1 "terminal block.sch" 50
 $EndSheet
 $Sheet
-S 4300 700  2100 1900
+S 4300 700  1800 1300
 U 52F95312
 F0 "power adjustment monitor" 50
 F1 "power adjustment monitor.sch" 50
+F2 "3V3_MON" O L 4300 1300 60 
+F3 "5V_MON" O L 4300 1400 60 
+F4 "V+ADJ_MON" O L 4300 1600 60 
+F5 "V-ADJ_MON" O L 4300 1700 60 
+F6 "V+CURRENT_MON" O L 4300 1800 60 
+F7 "V-CURRENT_MON" O L 4300 1900 60 
+F8 "V+ADJ" O R 6100 1300 60 
+F9 "V-ADJ" O R 6100 1500 60 
 $EndSheet
 $EndSCHEMATC
