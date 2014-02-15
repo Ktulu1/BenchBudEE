@@ -95,10 +95,9 @@ S 6600 3050 2700 650
 U 52ED27AA
 F0 "led driver" 50
 F1 "led driver.sch" 50
-F2 "EN" I L 6600 3250 60 
-F3 "FREQ" I L 6600 3450 60 
-F4 "String+" O R 9300 3250 60 
-F5 "String-" I R 9300 3450 60 
+F2 "String+" O R 9300 3250 60 
+F3 "String-" I R 9300 3450 60 
+F4 "LED_EN_PWM" I L 6600 3250 60 
 $EndSheet
 $Sheet
 S 6600 800  2700 1250
