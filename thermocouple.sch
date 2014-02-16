@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "15 feb 2014"
+Date "16 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,9 +46,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 10550 1800 2    60   Input ~ 0
-tc in +
+TC_IN+
 Text HLabel 10500 4800 2    60   Input ~ 0
-tc in -
+TC_IN-
 Text HLabel 2700 2400 0    60   Input ~ 0
 MOSI
 Text HLabel 2650 3450 0    60   Output ~ 0
