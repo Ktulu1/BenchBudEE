@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
-Date "16 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -277,10 +277,6 @@ Text HLabel 6600 2200 2    60   Output ~ 0
 V+ADJ_MON
 Text HLabel 6500 6200 2    60   Output ~ 0
 V-ADJ_MON
-Text HLabel 9500 3100 2    60   Output ~ 0
-V+CURRENT_MON
-Text HLabel 9500 5000 2    60   Output ~ 0
-V-CURRENT_MON
 $Comp
 L R R?
 U 1 1 52FF7646
@@ -325,98 +321,10 @@ F 3 "~" H 5600 6550 30  0000 C CNN
 	1    5600 6550
 	1    0    0    1   
 $EndComp
-$Comp
-L R R?
-U 1 1 52FF79D6
-P 4900 1000
-F 0 "R?" V 4980 1000 40  0000 C CNN
-F 1 "R" V 4907 1001 40  0000 C CNN
-F 2 "~" V 4830 1000 30  0000 C CNN
-F 3 "~" H 4900 1000 30  0000 C CNN
-	1    4900 1000
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R?
-U 1 1 52FF79DC
-P 4900 7500
-F 0 "R?" V 4980 7500 40  0000 C CNN
-F 1 "R" V 4907 7501 40  0000 C CNN
-F 2 "~" V 4830 7500 30  0000 C CNN
-F 3 "~" H 4900 7500 30  0000 C CNN
-	1    4900 7500
-	0    1    -1   0   
-$EndComp
 Text Label 4900 1500 2    60   ~ 0
 V+I_MON
 Text Label 4900 7000 2    60   ~ 0
 V-I_MON
-$Comp
-L LM324 U?
-U 1 1 52FF82BD
-P 8400 3100
-F 0 "U?" H 8450 3300 60  0000 C CNN
-F 1 "LM324" H 8550 2900 50  0000 C CNN
-F 2 "" H 8400 3100 60  0000 C CNN
-F 3 "" H 8400 3100 60  0000 C CNN
-	1    8400 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR041
-U 1 1 52FF82C6
-P 8300 3800
-F 0 "#PWR041" H 8300 3930 20  0001 C CNN
-F 1 "-12V" H 8300 3900 30  0000 C CNN
-F 2 "" H 8300 3800 60  0000 C CNN
-F 3 "" H 8300 3800 60  0000 C CNN
-	1    8300 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L +12V #PWR042
-U 1 1 52FF82CD
-P 8300 2400
-F 0 "#PWR042" H 8300 2350 20  0001 C CNN
-F 1 "+12V" H 8300 2500 30  0000 C CNN
-F 2 "" H 8300 2400 60  0000 C CNN
-F 3 "" H 8300 2400 60  0000 C CNN
-	1    8300 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L LM324 U?
-U 1 1 52FF82D6
-P 8400 5000
-F 0 "U?" H 8450 5200 60  0000 C CNN
-F 1 "LM324" H 8550 4800 50  0000 C CNN
-F 2 "" H 8400 5000 60  0000 C CNN
-F 3 "" H 8400 5000 60  0000 C CNN
-	1    8400 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR043
-U 1 1 52FF82DC
-P 8300 5700
-F 0 "#PWR043" H 8300 5830 20  0001 C CNN
-F 1 "-12V" H 8300 5800 30  0000 C CNN
-F 2 "" H 8300 5700 60  0000 C CNN
-F 3 "" H 8300 5700 60  0000 C CNN
-	1    8300 5700
-	-1   0    0    1   
-$EndComp
-$Comp
-L +12V #PWR044
-U 1 1 52FF82E3
-P 8300 4300
-F 0 "#PWR044" H 8300 4250 20  0001 C CNN
-F 1 "+12V" H 8300 4400 30  0000 C CNN
-F 2 "" H 8300 4300 60  0000 C CNN
-F 3 "" H 8300 4300 60  0000 C CNN
-	1    8300 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 3100 2600 3300
 Wire Wire Line
@@ -467,9 +375,7 @@ Connection ~ 3100 2800
 Wire Wire Line
 	3100 7500 3200 7500
 Wire Wire Line
-	4000 7500 4650 7500
-Wire Wire Line
-	5150 7500 6500 7500
+	4000 7500 6500 7500
 Wire Wire Line
 	4200 7500 4200 7400
 Wire Wire Line
@@ -527,9 +433,7 @@ Wire Wire Line
 	5600 6800 5600 7500
 Connection ~ 5600 7500
 Wire Wire Line
-	4000 1000 4650 1000
-Wire Wire Line
-	5150 1000 6600 1000
+	4000 1000 6600 1000
 Wire Wire Line
 	6600 2200 5600 2200
 Connection ~ 5600 2200
@@ -554,44 +458,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 7000 4400 7500
 Connection ~ 4400 7500
-Wire Wire Line
-	8300 3500 8300 3800
-Wire Wire Line
-	8300 2400 8300 2700
-Wire Wire Line
-	8300 5400 8300 5700
-Wire Wire Line
-	8300 4300 8300 4600
-Wire Wire Line
-	8900 3100 9500 3100
-Wire Wire Line
-	8900 5000 9500 5000
-Wire Wire Line
-	7900 3200 7800 3200
-Wire Wire Line
-	7800 3200 7800 4000
-Wire Wire Line
-	7800 4000 9100 4000
-Wire Wire Line
-	9100 4000 9100 3100
-Connection ~ 9100 3100
-Wire Wire Line
-	7900 5100 7800 5100
-Wire Wire Line
-	7800 5100 7800 5900
-Wire Wire Line
-	7800 5900 9100 5900
-Wire Wire Line
-	9100 5900 9100 5000
-Connection ~ 9100 5000
-Text Label 7250 3000 0    60   ~ 0
-V+I_MON
-Text Label 7300 4900 0    60   ~ 0
-V-I_MON
-Wire Wire Line
-	7900 3000 7250 3000
-Wire Wire Line
-	7900 4900 7300 4900
 $Comp
 L RVAR R?
 U 1 1 52FF8AC4

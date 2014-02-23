@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "16 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -135,8 +135,6 @@ F2 "3V3_MON" O L 6600 900 60
 F3 "5V_MON" O L 6600 1000 60 
 F4 "V+ADJ_MON" O L 6600 1200 60 
 F5 "V-ADJ_MON" O L 6600 1300 60 
-F6 "V+CURRENT_MON" O L 6600 1400 60 
-F7 "V-CURRENT_MON" O L 6600 1500 60 
 F8 "V+ADJ" O R 9300 1150 60 
 F9 "V-ADJ" O R 9300 1350 60 
 $EndSheet
